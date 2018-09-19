@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e6a8833-dd3f-4e35-b468-4a4fa273bfbe" name="Default Changelist" comment="" />
+    <list default="true" id="3e6a8833-dd3f-4e35-b468-4a4fa273bfbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +22,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+            <state relative-caret-position="510">
+              <caret line="133" column="5" lean-forward="true" selection-start-line="108" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#UsuariosWSTest#0" />
+                <element signature="method#deveRetornarListadeUsuariosJSONPeloID#0;class#UsuariosWSTest#0" />
+                <element signature="method#deveRetornarListadeLeiloesJSONID#0;class#UsuariosWSTest#0" />
+                <element signature="method#deveRetornarListaDeUsuariosJSON#0;class#UsuariosWSTest#0" />
+                <element signature="method#deveRetornarQtdleiloesXML#0;class#UsuariosWSTest#0" />
               </folding>
             </state>
           </provider>
@@ -29,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Leilao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="16" column="28" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -38,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="270">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -51,11 +61,15 @@
       <find>&gt;&gt; array:</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Usuario.java" />
       </list>
     </option>
   </component>
@@ -78,18 +92,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="173" />
-    <option name="y" value="185" />
-    <option name="width" value="1141" />
+    <option name="x" value="181" />
+    <option name="y" value="180" />
+    <option name="width" value="1111" />
     <option name="height" value="660" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,14 +112,48 @@
               <item name="testes" type="b2602c69:ProjectViewProjectNode" />
               <item name="testes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537204947493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537375356445" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -123,8 +172,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in testes (3)">
-    <configuration name="All in testes (1)" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.All in testes (2)">
+    <configuration name="All in testes (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -132,15 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in testes (2)" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="testes" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in testes (3)" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="All in testes (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -156,7 +197,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in testes (6)" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="All in testes (6)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -175,10 +216,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsuariosWSTest.deveAdicionarUmUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredLab.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredLab.testes" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredLab.testes.UsuariosWSTest" />
+      <option name="METHOD_NAME" value="deveAdicionarUmUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in testes (3)" />
         <item itemvalue="JUnit.All in testes (2)" />
+        <item itemvalue="JUnit.UsuariosWSTest.deveAdicionarUmUsuario" />
         <item itemvalue="JUnit.All in testes (1)" />
         <item itemvalue="JUnit.All in testes (6)" />
         <item itemvalue="JUnit.All in testes (5)" />
@@ -199,27 +256,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_testes_(6) - 2018.09.17 at 14h 03m 23s.xml">
-      <configuration name="All in testes (6)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(1) - 2018.09.17 at 14h 09m 52s.xml">
-      <configuration name="All in testes (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(2) - 2018.09.17 at 14h 11m 02s.xml">
-      <configuration name="All in testes (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(3) - 2018.09.17 at 14h 12m 43s.xml">
-      <configuration name="All in testes (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(4) - 2018.09.17 at 14h 13m 54s.xml">
-      <configuration name="All in testes (4)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(5) - 2018.09.17 at 14h 15m 13s.xml">
-      <configuration name="All in testes (5)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(6) - 2018.09.17 at 14h 15m 38s.xml">
-      <configuration name="All in testes (6)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_testes_(1) - 2018.09.17 at 14h 16m 23s.xml">
       <configuration name="All in testes (1)" configurationId="JUnit" />
     </history-entry>
@@ -228,6 +264,27 @@
     </history-entry>
     <history-entry file="All_in_testes_(3) - 2018.09.17 at 14h 17m 29s.xml">
       <configuration name="All in testes (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testes_(4) - 2018.09.18 at 15h 54m 57s.xml">
+      <configuration name="All in testes (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testes_(5) - 2018.09.18 at 17h 13m 36s.xml">
+      <configuration name="All in testes (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testes_(6) - 2018.09.19 at 10h 26m 18s.xml">
+      <configuration name="All in testes (6)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testes_(1) - 2018.09.19 at 10h 27m 30s.xml">
+      <configuration name="All in testes (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuariosWSTest_deveAdicionarUmUsuario - 2018.09.19 at 10h 30m 43s.xml">
+      <configuration name="UsuariosWSTest.deveAdicionarUmUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuariosWSTest_deveAdicionarUmUsuario - 2018.09.19 at 13h 38m 19s.xml">
+      <configuration name="UsuariosWSTest.deveAdicionarUmUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testes_(2) - 2018.09.19 at 13h 39m 17s.xml">
+      <configuration name="All in testes (2)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -241,9 +298,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1440" height="902" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990366" visible="true" weight="0.12553802" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990366" visible="true" weight="0.2790531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -253,15 +309,15 @@
       <window_info id="Favorites" order="7" sideWeight="0.5009634" side_tool="true" weight="0.23888092" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79913914" visible="true" weight="0.3875969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79770446" visible="true" weight="0.07772021" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39922482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928263" weight="0.32945737" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.20086083" side_tool="true" weight="0.32945737" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49880287" weight="0.32789558" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.20229556" side_tool="true" visible="true" weight="0.07772021" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4964132" weight="0.32945737" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49569583" weight="0.3277202" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964131" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Leilao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="16" column="28" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -326,19 +375,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Leilao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="270">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+        <state relative-caret-position="510">
+          <caret line="133" column="5" lean-forward="true" selection-start-line="108" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#UsuariosWSTest#0" />
+            <element signature="method#deveRetornarListadeUsuariosJSONPeloID#0;class#UsuariosWSTest#0" />
+            <element signature="method#deveRetornarListadeLeiloesJSONID#0;class#UsuariosWSTest#0" />
+            <element signature="method#deveRetornarListaDeUsuariosJSON#0;class#UsuariosWSTest#0" />
+            <element signature="method#deveRetornarQtdleiloesXML#0;class#UsuariosWSTest#0" />
           </folding>
         </state>
       </provider>
