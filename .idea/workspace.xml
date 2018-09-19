@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e6a8833-dd3f-4e35-b468-4a4fa273bfbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,15 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="133" column="5" lean-forward="true" selection-start-line="108" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
+            <state relative-caret-position="227">
+              <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#UsuariosWSTest#0" />
-                <element signature="method#deveRetornarListadeUsuariosJSONPeloID#0;class#UsuariosWSTest#0" />
-                <element signature="method#deveRetornarListadeLeiloesJSONID#0;class#UsuariosWSTest#0" />
-                <element signature="method#deveRetornarListaDeUsuariosJSON#0;class#UsuariosWSTest#0" />
-                <element signature="method#deveRetornarQtdleiloesXML#0;class#UsuariosWSTest#0" />
               </folding>
             </state>
           </provider>
@@ -68,8 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/modelo/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java" />
       </list>
     </option>
   </component>
@@ -153,7 +145,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537375356445" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537382216325" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -172,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in testes (2)">
+  <component name="RunManager" selected="JUnit.All in testes (1)">
     <configuration name="All in testes (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
@@ -189,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in testes (5)" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="All in testes (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -197,7 +189,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in testes (6)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in testes (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -216,7 +208,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuariosWSTest.deveAdicionarUmUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UsuariosWSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <extension name="coverage">
         <pattern>
@@ -226,19 +218,17 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssuredLab.testes" />
       <option name="MAIN_CLASS_NAME" value="restAssuredLab.testes.UsuariosWSTest" />
-      <option name="METHOD_NAME" value="deveAdicionarUmUsuario" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in testes (2)" />
-        <item itemvalue="JUnit.UsuariosWSTest.deveAdicionarUmUsuario" />
         <item itemvalue="JUnit.All in testes (1)" />
-        <item itemvalue="JUnit.All in testes (6)" />
-        <item itemvalue="JUnit.All in testes (5)" />
+        <item itemvalue="JUnit.UsuariosWSTest" />
+        <item itemvalue="JUnit.All in testes (4)" />
+        <item itemvalue="JUnit.All in testes (3)" />
+        <item itemvalue="JUnit.All in testes (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,21 +246,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_testes_(1) - 2018.09.17 at 14h 16m 23s.xml">
-      <configuration name="All in testes (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(2) - 2018.09.17 at 14h 17m 06s.xml">
-      <configuration name="All in testes (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(3) - 2018.09.17 at 14h 17m 29s.xml">
-      <configuration name="All in testes (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(4) - 2018.09.18 at 15h 54m 57s.xml">
-      <configuration name="All in testes (4)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_testes_(5) - 2018.09.18 at 17h 13m 36s.xml">
-      <configuration name="All in testes (5)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_testes_(6) - 2018.09.19 at 10h 26m 18s.xml">
       <configuration name="All in testes (6)" configurationId="JUnit" />
     </history-entry>
@@ -286,6 +261,21 @@
     <history-entry file="All_in_testes_(2) - 2018.09.19 at 13h 39m 17s.xml">
       <configuration name="All in testes (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_testes_(3) - 2018.09.19 at 15h 27m 43s.xml">
+      <configuration name="All in testes (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testes_(4) - 2018.09.19 at 15h 28m 25s.xml">
+      <configuration name="All in testes (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuariosWSTest - 2018.09.19 at 15h 30m 02s.xml">
+      <configuration name="UsuariosWSTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuariosWSTest - 2018.09.19 at 15h 30m 38s.xml">
+      <configuration name="UsuariosWSTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testes_(1) - 2018.09.19 at 15h 36m 14s.xml">
+      <configuration name="All in testes (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,6 +288,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1440" height="902" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990366" visible="true" weight="0.2790531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -309,15 +300,15 @@
       <window_info id="Favorites" order="7" sideWeight="0.5009634" side_tool="true" weight="0.23888092" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79770446" visible="true" weight="0.07772021" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79483503" visible="true" weight="0.47797927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39922482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49880287" weight="0.32789558" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.20229556" side_tool="true" visible="true" weight="0.07772021" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.205165" side_tool="true" visible="true" weight="0.47797927" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49569583" weight="0.3277202" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4928264" weight="0.32642487" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964131" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,15 +389,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredLab/testes/UsuariosWSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="108" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
+        <state relative-caret-position="227">
+          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#UsuariosWSTest#0" />
-            <element signature="method#deveRetornarListadeUsuariosJSONPeloID#0;class#UsuariosWSTest#0" />
-            <element signature="method#deveRetornarListadeLeiloesJSONID#0;class#UsuariosWSTest#0" />
-            <element signature="method#deveRetornarListaDeUsuariosJSON#0;class#UsuariosWSTest#0" />
-            <element signature="method#deveRetornarQtdleiloesXML#0;class#UsuariosWSTest#0" />
           </folding>
         </state>
       </provider>

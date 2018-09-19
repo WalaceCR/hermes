@@ -1,17 +1,13 @@
 package restAssuredLab.testes;
 
-//import static com.jayway.restassured.RestAssured.given;
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.expect;
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
-
-//import com.jayway.restassured.path.json.JsonPath;
-//import com.jayway.restassured.path.xml.XmlPath;
-//import com.jayway.restassured.response.Response;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.path.xml.XmlPath;
@@ -78,8 +74,6 @@ public class UsuariosWSTest {
         System.out.println();
         
         List<Usuario> usuarios = path.getList("list", Usuario.class);
-
-        System.out.println(">> Array: " + usuarios.toString());
         
         assertEquals(esperado1, usuarios.get(0));
         assertEquals(esperado2, usuarios.get(1));
@@ -95,8 +89,6 @@ public class UsuariosWSTest {
                 .get("/leiloes/total")
                 .andReturn()
                 .xmlPath();
-		
-		System.out.println("Valor: " + path.prettify());
 		
 		int valor = path.getInt("int");
 		
@@ -131,6 +123,22 @@ public class UsuariosWSTest {
 
 
 
+	}
+
+	@Test
+	public void deveGerarUmCookie() {
+		expect()
+				.cookie("rest-assured", "funciona")
+				.when()
+				.get("/cookie/teste");
+	}
+
+	@Test
+	public void deveGerarUmHeader() {
+		expect()
+				.header("novo-header", "abc")
+				.when()
+				.get("/cookie/teste");
 	}
 	
 	
